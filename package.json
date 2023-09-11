@@ -1,0 +1,37 @@
+{
+  "name": "@cow-sunday/tic-tac-toe-rules-ts",
+  "version": "1.0.0",
+  "description": "Tic Tac Toe Game Rule in TypeScript",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "dist": "tsc",
+    "test": "ts-node ./src/test_index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shadowCow/tic-tac-toe-rules-ts.git"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "author": "shadowCow",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shadowCow/tic-tac-toe-rules-ts/issues"
+  },
+  "homepage": "https://github.com/shadowCow/tic-tac-toe-rules-ts#readme",
+  "dependencies": {
+    "@cow-sunday/fp-ts": "^1.2.0",
+    "@cow-sunday/game-rules-ts": "^1.1.1"
+  },
+  "devDependencies": {
+    "@cow-sunday/cowtest": "^1.1.0",
+    "@types/node": "^20.6.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
+  }
+}
